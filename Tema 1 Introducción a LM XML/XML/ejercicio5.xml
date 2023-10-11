@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE store>
+<store>
+    <product name="The Dark Side of the Moon LP">
+        <category>Music</category>
+        <features>
+            <feature name="Color" value="Black" />
+            <feature name="Price" value="26.99€" />
+            <feature name="Author" value="Pink Floyd" />
+            <feature name="Genre" value="Rock" />
+        </features>
+    </product>
+    <product name="Nike Mercurial Zoom Vapor 15 Elite AG-PRO">
+        <category>Football equipment</category>
+        <features>
+            <feature name="Color" value="White and blue" />
+            <feature name="Price" value="249.99€" />
+            <feature name="Brand" value="Nike" />
+            <feature name="Material" value="Special plastic, rubber..." />
+        </features>
+    </product>
+    <product name="El árbol de la ciencia">
+        <category>Books</category>
+        <features>
+            <feature name="Author" value="Pío Baroja" />
+            <feature name="Genre" value="Fiction" />
+            <feature name="ISBN" value="9781710330519" />
+            <feature name="Price" value="10.99€" />
+            <feature name="Matters" value="Anguish, existential bitterness, boredom, philosophy, Spanish crisis of '98" />
+        </features>
+    </product>
+</store>
