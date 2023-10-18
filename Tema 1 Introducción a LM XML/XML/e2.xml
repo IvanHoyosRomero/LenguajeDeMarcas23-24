@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shopping_center>
+<shopping_center>
+    <stores>
+        <store name = "Nike Store">
+            <plots>2</plots>
+            <square_meters>2000</square_meters>
+            <manager_contact_details>
+                <first_name>Juan</first_name>
+                <last_name>Valdés</last_name>
+                <contact_phone>111111111</contact_phone>
+                <social_security_number>2345783402</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "Mercadona">
+            <plots>6</plots>
+            <square_meters>6000</square_meters>
+            <manager_contact_details>
+                <first_name>Antonio</first_name>
+                <last_name>Recio</last_name>
+                <contact_phone>222222222</contact_phone>
+                <social_security_number>9021239129</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "Game">
+            <plots>0,5</plots>
+            <square_meters>500</square_meters>
+            <manager_contact_details>
+                <first_name>David</first_name>
+                <last_name>Montalbán</last_name>
+                <contact_phone>333333333</contact_phone>
+                <social_security_number>111058395</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "FootLocker">
+            <plots>0,5</plots>
+            <square_meters>500</square_meters>
+            <manager_contact_details>
+                <first_name>Agustín</first_name>
+                <last_name>Garrido</last_name>
+                <contact_phone>444444444</contact_phone>
+                <social_security_number>008869654</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "Primor">
+            <plots>0,5</plots>
+            <square_meters>500</square_meters>
+            <manager_contact_details>
+                <first_name>Alejandro</first_name>
+                <last_name>Fernandez</last_name>
+                <contact_phone>555555555</contact_phone>
+                <social_security_number></social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "Carrefour">
+            <plots>5</plots>
+            <square_meters>5000</square_meters>
+            <manager_contact_details>
+                <first_name>Jose</first_name>
+                <last_name>Benitez</last_name>
+                <contact_phone>666666666</contact_phone>
+                <social_security_number>234244934</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "Adidas Store">
+            <plots>2</plots>
+            <square_meters>2000</square_meters>
+            <manager_contact_details>
+                <first_name>Hugo</first_name>
+                <last_name>Azqueta</last_name>
+                <contact_phone>777777777</contact_phone>
+                <social_security_number>145775256</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "JD">
+            <plots>1</plots>
+            <square_meters>1000</square_meters>
+            <manager_contact_details>
+                <first_name>Manuel</first_name>
+                <last_name>Solís</last_name>
+                <contact_phone>888888888</contact_phone>
+                <social_security_number>111486943</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "Toyplanet">
+            <plots>4</plots>
+            <square_meters>4000</square_meters>
+            <manager_contact_details>
+                <first_name>Ramón</first_name>
+                <last_name>Alvarez</last_name>
+                <contact_phone>999999999</contact_phone>
+                <social_security_number>692300596</social_security_number>
+            </manager_contact_details>
+        </store>
+        <store name = "Bershka">
+            <plots>3</plots>
+            <square_meters>3000</square_meters>
+            <manager_contact_details>
+                <first_name>Raul</first_name>
+                <last_name>Valderrama</last_name>
+                <contact_phone>000000000</contact_phone>
+                <social_security_number>476888302</social_security_number>
+            </manager_contact_details>
+        </store>
+    </stores>
+</shopping_center>
