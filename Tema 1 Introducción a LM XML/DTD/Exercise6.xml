@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beatles [
+<!ELEMENT beatles (beatle+)>
+<!ELEMENT beatle (name)>
+    <!ATTLIST beatle link CDATA #REQUIRED>
+    <!ATTLIST beatle real NMTOKEN #IMPLIED>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+]>
+
+<beatles>
+    <beatle link="http://www.paulmccartney.com">
+        <name>
+            <firstname>Paul</firstname>
+            <lastname>McCartney</lastname>
+        </name>
+    </beatle>
+    <beatle link="http://www.johnlennon.com">
+        <name>
+            <firstname>John</firstname>
+            <lastname>Lennon</lastname>
+        </name>
+    </beatle>
+    <beatle link="http://www.georgeharrison.com">
+        <name>
+            <firstname>George</firstname>
+            <lastname>Harrison</lastname>
+        </name>
+    </beatle>
+    <beatle link="http://www.ringostarr.com">
+        <name>
+            <firstname>Ringo</firstname>
+            <lastname>Starr</lastname>
+        </name>
+    </beatle>
+    <beatle link="http://www.webucator.com" real="no">
+        <name>
+            <firstname>Nat</firstname>
+            <lastname>Dunn</lastname>
+        </name>
+    </beatle>
+</beatles>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FootballLeagueResults [
+  <!ELEMENT FootballLeagueResults (Game*)>
+  <!ELEMENT Game EMPTY>
+  <!ATTLIST Game
+    LocalTeam CDATA #REQUIRED
+    VisitingTeam CDATA #REQUIRED
+    LocalGoals CDATA #REQUIRED
+    VisitingGoals CDATA #REQUIRED
+  >
+]>
+
+<FootballLeagueResults>
+  <Game LocalTeam="Nottingham Preesa" VisitingTeam="Inter from Mitente" LocalGoals="0" VisitingGoals="1"/>
+  <Game LocalTeam="Vodka Juniors" VisitingTeam="Sparta da Risa" LocalGoals="3" VisitingGoals="3"/>
+  <Game LocalTeam="Water of Munich" VisitingTeam="Esteaua is from the tap" LocalGoals="4" VisitingGoals="2"/>
+</FootballLeagueResults>

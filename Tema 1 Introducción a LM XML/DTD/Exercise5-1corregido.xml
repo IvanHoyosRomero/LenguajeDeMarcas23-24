@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE games [
+    <!ELEMENT games (game*)>
+    <!ELEMENT game (local_team, visiting_team, local_goals, visiting_goals)>
+    <!ELEMENT local_team (#PCDATA)>
+    <!ELEMENT visiting_team (#PCDATA)>
+    <!ELEMENT local_goals (#PCDATA)>
+    <!ELEMENT visiting_goals (#PCDATA)>
+]>
+<games>
+    <game>
+        <local_team>Nottingham Preesa</local_team>
+        <visiting_team>Inter from Mitente</visiting_team>
+        <local_goals>0</local_goals>
+        <visiting_goals>1</visiting_goals>
+    </game>
+    <game>
+        <local_team>Vodka Juniors</local_team>
+        <visiting_team>Sparta da Risa</visiting_team>
+        <local_goals>3</local_goals>
+        <visiting_goals>3</visiting_goals>
+    </game>
+    <game>
+        <local_team>Water of Munich</local_team>
+        <visiting_team>Esteaua is from the tap</visiting_team>
+        <local_goals>4</local_goals>
+        <visiting_goals>2</visiting_goals>
+    </game>
+</games>

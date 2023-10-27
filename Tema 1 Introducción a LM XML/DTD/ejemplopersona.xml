@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "persona.dtd">
+<persona>
+    <nombre>Iván</nombre>
+    <fecha_de_nacimiento>
+        <dia></dia>
+        <mes></mes>
+        <anio></anio>
+    </fecha_de_nacimiento>
+
+    <ciudad>Chipiona</ciudad>
+</persona>

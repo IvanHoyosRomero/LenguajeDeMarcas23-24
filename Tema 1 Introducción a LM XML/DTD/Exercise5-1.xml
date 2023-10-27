@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FootballLeagueResults [
+  <!ELEMENT FootballLeagueResults (Game*)>
+  <!ELEMENT Game (LocalTeam, VisitingTeam, Score)>
+  <!ELEMENT LocalTeam (#PCDATA)>
+  <!ELEMENT VisitingTeam (#PCDATA)>
+  <!ELEMENT Score (#PCDATA)>
+]>
+
+<FootballLeagueResults>
+  <Game>
+    <LocalTeam>Nottingham Preesa</LocalTeam>
+    <VisitingTeam>Inter from Mitente</VisitingTeam>
+    <Score>0 - 1</Score>
+  </Game>
+  <Game>
+    <LocalTeam>Vodka Juniors</LocalTeam>
+    <VisitingTeam>Sparta da Risa</VisitingTeam>
+    <Score>3 - 3</Score>
+  </Game>
+  <Game>
+    <LocalTeam>Water of Munich</LocalTeam>
+    <VisitingTeam>Esteaua is from the tap</VisitingTeam>
+    <Score>4 - 2</Score>
+  </Game>
+</FootballLeagueResults>
