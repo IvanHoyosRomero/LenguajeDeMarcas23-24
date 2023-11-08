@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cities>
 <cities>
@@ -13,4 +14,21 @@
         <name>El Cairo</name>
         <country>Egipto</country>
     </city>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cities>
+<cities>
+    <city continent="Asia">
+        <name>Nueva Delhi</name>
+        <country>India</country>
+    </city>
+    <city continent="Europe">
+        <name>Lisboa</name>
+        <country>Portugal</country>
+    </city>
+    <city continent="Africa">
+        <name>El Cairo</name>
+        <country>Egipto</country>
+    </city>
+>>>>>>> bd01c3169ef36a95390e5a2306e22c349796a15e
 </cities>

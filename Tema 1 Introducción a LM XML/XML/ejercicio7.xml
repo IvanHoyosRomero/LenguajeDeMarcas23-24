@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE music_catalog>
 <music_catalog>
@@ -25,3 +26,32 @@
         </genres>
     </song>
 </music_catalog>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musiccatalog>
+<musiccatalog>
+    <song title="Another Brick in the Wall, Part 2" artist="Pink Floyd" year="1979">
+        <genres>
+            <genre>Pop</genre>
+            <genre>Progressive Rock</genre>
+        </genres>
+    </song>
+    <song title="Scar Tissue" artist="Red Hot Chili Peppers" year="1999">
+        <genres>
+            <genre>Alternative rock</genre>
+            <genre>blues rock</genre>
+        </genres>
+    </song>
+    <song title="Falling" artist="Harry Styles" year="2019">
+        <genres>
+            <genre>Pop Soul</genre>
+        </genres>
+    </song>
+    <song title="Need it" artist="Migos, Youngboy Never Broke Again" year="2021">
+        <genres>
+            <genre>Rap</genre>
+            <genre>Hip-Hop</genre>
+        </genres>
+    </song>
+</musiccatalog>
+>>>>>>> bd01c3169ef36a95390e5a2306e22c349796a15e

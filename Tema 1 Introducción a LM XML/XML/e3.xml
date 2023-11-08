@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE car_dealership>
 <car_dealership>
@@ -88,4 +89,96 @@
             </car2>
         </brand>
     </brands>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car_dealership>
+<car_dealership>
+    <brands>
+        <brand name ="Lamborghini">
+            <country_of_origing>Italy</country_of_origing>
+            <car1>
+                <license_plate>2222 BSS</license_plate>
+                <year_of_registration>2017</year_of_registration>
+                <model>Urus</model>
+                <number_of_seats>4</number_of_seats>
+                <engine_displacement_in_cc>3996</engine_displacement_in_cc>
+            </car1>
+            <car2>
+                <license_plate>2223 BSD</license_plate>
+                <year_of_registration>2019</year_of_registration>
+                <model>Huracán EVO</model>
+                <number_of_seats>2</number_of_seats>
+                <engine_displacement_in_cc>5204</engine_displacement_in_cc>
+            </car2>
+        </brand>
+        <brand name ="Ferrari">
+            <country_of_origing>Italy</country_of_origing>
+            <car1>
+                <license_plate>1111 ADF</license_plate>
+                <year_of_registration>2023</year_of_registration>
+                <model>F8 Tributo</model>
+                <number_of_seats>2</number_of_seats>
+                <engine_displacement_in_cc>3900</engine_displacement_in_cc>
+            </car1>
+            <car2>
+                <license_plate>1112 HSA</license_plate>
+                <year_of_registration>2021</year_of_registration>
+                <model>296 GTB</model>
+                <number_of_seats>2</number_of_seats>
+                <engine_displacement_in_cc>2992</engine_displacement_in_cc>
+            </car2>
+        </brand>
+        <brand name ="BMW">
+            <country_of_origing>Germany</country_of_origing>
+            <car1>
+                <license_plate>4234 TRT</license_plate>
+                <year_of_registration>2022</year_of_registration>
+                <model>X7</model>
+                <number_of_seats>5</number_of_seats>
+                <engine_displacement_in_cc>2998</engine_displacement_in_cc>
+            </car1>
+            <car2>
+                <license_plate>7357 TRR</license_plate>
+                <year_of_registration>2008</year_of_registration>
+                <model>X6</model>
+                <number_of_seats>5</number_of_seats>
+                <engine_displacement_in_cc>2990</engine_displacement_in_cc>
+            </car2>
+        </brand>
+        <brand name ="Mercedes">
+            <country_of_origing>Germany</country_of_origing>
+            <car1>
+                <license_plate>3577 HSH</license_plate>
+                <year_of_registration>2023</year_of_registration>
+                <model>Maybach s680</model>
+                <number_of_seats>4</number_of_seats>
+                <engine_displacement_in_cc>5980</engine_displacement_in_cc>
+            </car1>
+            <car2>
+                <license_plate>6534 JJJ</license_plate>
+                <year_of_registration>1993</year_of_registration>
+                <model>Benz Class C 300</model>
+                <number_of_seats>5</number_of_seats>
+                <engine_displacement_in_cc>1991</engine_displacement_in_cc>
+            </car2>
+        </brand>
+        <brand name ="Audi">
+            <country_of_origing>Germany</country_of_origing>
+            <car1>
+                <license_plate>2346 WWW</license_plate>
+                <year_of_registration>2006</year_of_registration>
+                <model>R8</model>
+                <number_of_seats>2</number_of_seats>
+                <engine_displacement_in_cc>5205</engine_displacement_in_cc>
+            </car1>
+            <car2>
+                <license_plate>2454 QQQ</license_plate>
+                <year_of_registration>2014</year_of_registration>
+                <model>RS 7</model>
+                <number_of_seats>4</number_of_seats>
+                <engine_displacement_in_cc>3996</engine_displacement_in_cc>
+            </car2>
+        </brand>
+    </brands>
+>>>>>>> bd01c3169ef36a95390e5a2306e22c349796a15e
 </car_dealership>
