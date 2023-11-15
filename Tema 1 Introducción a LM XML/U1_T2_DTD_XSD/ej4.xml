@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej4.xsd" type="application/xml" 
+schematypens="http://www.w3.org/2001/XMLSchema"?>
+<clase>
+    <profesor codigo="1">Dr. Smith</profesor>
+    <alumnos>
+        <alumno id="14323">
+            <nombre>aaaaa</nombre>
+            <edad>17</edad>
+            <curso>1 asir</curso>
+        </alumno>
+    </alumnos>
+</clase>

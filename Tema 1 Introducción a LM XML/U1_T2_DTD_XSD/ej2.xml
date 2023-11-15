@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "ej2.dtd">
+<libro catalogo="aaaa">
+    <titulo>El principito</titulo>
+    <seccion>asdfj</seccion>
+    <subseccion>dkjfgsss</subseccion>
+    <contenido>
+        <capitulo materia="XML">
+            <tema>glkkfghjfgjfghjfhjfgfjfjffj</tema>
+        </capitulo>
+    </contenido>
+    <separacion/>
+    <copyright>uuu</copyright>
+</libro>
