@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book>
+<book>
+    <title name = "La Celestina"></title> 
+        <publisher>Editorial Juventud</publisher>
+        <number_of_pages>1560</number_of_pages>
+        <author>Fernando de Rojas</author>
+        <chapters>
+            <chapter1 name = "Hechizo de Celestina"></chapter1>
+                <start_page>1</start_page>
+                <finish_page>200</finish_page>
+            <chapter2 name = "Visita de Celestina a casa de Melibea"></chapter2>
+                <start_page>201</start_page>
+                <finish_page>400</finish_page>
+            <chapter3 name = "Visita de Celestina y Pármeno a casa de Areúsa"></chapter3>
+                <start_page>401</start_page>
+                <finish_page>600</finish_page>
+            <chapter4 name = "Banquete en casa de Celestina"></chapter4>
+                <start_page>601</start_page>
+                <finish_page>800</finish_page>
+            <chapter5 name = "Muertes de Celestina, de Sempronio y Pármeno"></chapter5>
+                <start_page>801</start_page>
+                <finish_page>1000</finish_page>
+            <chapter6 name = "Caída y muerte de Calisto"></chapter6>
+                <start_page>1001</start_page>
+                <finish_page>1200</finish_page>
+            <chapter7 name = "Suicidio de Melibea y llanto de Pleberio"></chapter7>
+                <start_page>1201</start_page>
+                <finish_page>1560</finish_page>
+        </chapters>
+</book>

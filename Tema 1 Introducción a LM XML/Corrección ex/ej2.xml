@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro>
+    <Titulo>El camino</Titulo>
+    <Seccion>2</Seccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>FGJHFGJH</Tema>
+        </Capitulo>
+        <Capitulo materia="XHTML">
+            <Tema>GFHFJFG</Tema>
+        </Capitulo>
+        <Separacion/>
+    </Contenido>
+    <Copyright></Copyright>
+</Libro>
