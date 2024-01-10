@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            <label for="id_nombre" >Nombre *</label>
+            <input type="text" id="id_nombre" placeholder="Introduzca su nombre" required/>
+            <br>
+            <label for="id_provincia">Provincia</label>
+            <select name="Provincia" id="id_provincia">
+                <option value="1">Cádiz</option>
+                <option value="2" selected>Sevilla</option>
+                <option value="3" disabled>Córdoba</option>
+            </select>
+            <br>
+            <label for="id_informacion">Informacion</label>
+            <textarea name="Info" id="id_informacion" cols="30" rows="10" readonly>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, distinctio eos? Deleniti ut quod possimus odio, repellat rerum pariatur, accusantium eaque expedita corporis nesciunt minus et, dolor repudiandae vel a.
+            </textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+        <br>
+        <input type="color">
+        <br>
+        <input type="number" max="999">
+        <br>
+        <input type="date">
+        <br>
+        <input type="file">
+        <br>
+        <input type="password">
+        <br>
+        <button type="reset">21</button>
+
+        <br>
+        <p>Introduzca su lenguaje web favorito</p>
+        <input type="radio" id="html" value="HTML" name="fav_language">
+        <label for="html">HTML</label>
+        <input type="radio" id="CSS" value="CSS" name="fav_language">
+        <label for="CSS">CSS</label>
+        <input type="radio" id="js" value="js" name="fav_language">
+        <label for="js">Javascript</label>
+        <br>
+        <p>Introduzca su lenguaje web favorito</p>
+        <input type="checkbox" id="html" value="HTML" name="fav_language">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="CSS" value="CSS" name="fav_language">
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id="js" value="js" name="fav_language">
+        <label for="js">Javascript</label>
+        <br>
+
+        <label for="browser">Escriba un navegador</label>
+        <input list="browsers" name="browsers" id="browser">
+        <datalist id="browsers">
+            <option value="Explorer">
+            <option value="Edge">
+            <option value="Chrome">
+            <option value="Firefox">
+        </datalist>
+    
+    </form>
+</body>
+</html>

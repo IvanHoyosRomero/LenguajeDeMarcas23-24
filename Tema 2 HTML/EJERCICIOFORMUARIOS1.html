@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="id_nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="id_nombre"/>
+                </td>
+                <td>
+                    <label for="id_apellidos">Apellidos:</label>
+                    <br>
+                    <input type="text" id="id_apellidos"/>
+                </td>
+                <td>
+                    <label for="id_dni">DNI</label>
+                    <br>
+                    <input type="text" id="id_dni"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="localidad">Localidad Nacimiento</label>
+                    <br>
+                    <input type="text" id="localidad">
+                </td>
+                <td>
+                    <label for="Provincia">Provincia</label>
+                    <br>
+                    <select name="Provincia" id="Provincia">
+                        <option disabled selected> - selecciona - </option>
+                        <option>Cádiz</option>
+                        <option>Sevilla</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+
+    </fieldset>
+
+
+
+
+    <fieldset>
+        <legend>Forma de Acceso</legend>
+    </fieldset>
+
+
+
+    <fieldset>
+        <legend>Documentos Adjuntados</legend>
+        <input type="checkbox" id="fotocopia" value="fotocopia" name="documentosadj">
+        <label for="fotocopia">Fotocopia DNI</label>
+
+        <input type="checkbox" id="cert" value="certificadoacademico" name="documentosadj">
+        <label for="cert">Certificado Académico</label>
+        <br>
+        <input type="checkbox" id="otros" value="otrosdocumentos" name="documentosadj">
+        <label for="otros">Otros documentos (especifique)</label>
+        <input type="text" name="especificaciondedocumentosadj" id="otros">
+    </fieldset>
+    <button type="submit">Enviar Solicitud</button>
+</html>
