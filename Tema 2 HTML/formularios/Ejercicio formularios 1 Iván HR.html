@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ejercicio1 formularios</title>
+</head>
+<body>
+    <h1 style="text-align:center">HOJA DE INSCRIPCIÓN</h1>
+    <h1 style="text-align:center">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <fieldset style="background-color: darkgrey;">
+        <legend style="border: 1px solid black; background-color: white">Datos Personales</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="id_nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="id_nombre"/>
+                </td>
+                <td>
+                    <label for="id_apellidos">Apellidos:</label>
+                    <br>
+                    <input type="text" id="id_apellidos"/>
+                </td>
+                <td>
+                    <label for="id_dni">DNI</label>
+                    <br>
+                    <input type="text" id="id_dni"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="localidad">Localidad Nacimiento</label>
+                    <br>
+                    <input type="text" id="localidad">
+                </td>
+                <td>
+                    <label for="Provincia">Provincia</label>
+                    <br>
+                    <select name="Provincia" id="Provincia">
+                        <option disabled selected> - selecciona - </option>
+                        <option>Cádiz</option>
+                        <option>Sevilla</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="fecha_nac">Fecha Nacimiento</label>
+                    <br>
+                    <input type="date" id="fecha_nac">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="direccion">Dirección:</label>
+                    <br>
+                    <input type="text" id="direccion">
+                </td>
+                <td>
+                    <label for="codigopost">Código Postal:</label>
+                    <br>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+
+
+    <fieldset style="background-color: wheat;">
+        <legend style="border: 1px solid black; background-color: white">Forma de Acceso</legend>
+        <dl>
+            <dd>
+            <dl>
+            <input type="radio" id="direct" value="direct" name="formasss">
+            <label for="direct">Direct</label>
+                <dd>
+                    <input type="radio" id="bachlog" value="bachlog" name="formadirect">
+                    <label for="bachlog">Bachillerato LOGSE.</label>
+                    <label for="1">Modalidad</label>
+                    <input type="text" id="1">
+                </dd>
+                <dd>
+                    <input type="radio" id="bachEXP" value="bachEXP" name="formadirect">
+                    <label for="bachEXP">Bachillerato Experimental</label>
+                </dd>
+                <dd>
+                    <input type="radio" id="COU" value="COU" name="formadirect">
+                    <label for="COU">COU.</label>
+                    <label for="2">Opción</label>
+                    <input type="text" id="2">
+                </dd>
+                <dd>
+                    <input type="radio" id="FP2" value="FP2" name="formadirect">
+                    <label for="FP2">FP2</label>
+                </dd>
+                <dd>
+                    <input type="radio" id="otros" value="otros" name="formadirect">
+                    <label for="otros">Otros</label>
+                    <label for="3">(especifique)</label>
+                    <input type="text" id="3">
+                </dd>
+            
+            </dl>
+            </dd>
+        </dl>
+        <dl><dd>
+        <dl>
+            <input type="radio" id="pruebalibre" value="pruebalibre" name="formasss">
+            <label for="pruebalibre">Prueba Libre</label>
+        </dl>
+        </dd></dl>
+        
+
+    </fieldset>
+
+
+
+    <fieldset style="background-color: rgba(245, 99, 128, 0.959);">
+        <legend style="border: 1px solid black; background-color: white">Documentos Adjuntados</legend>
+        <tr>
+            <td rowspan="2"> 
+                <input type="checkbox" id="fotocopia" value="fotocopia" name="documentosadj">
+                <label for="fotocopia">Fotocopia DNI</label>
+            </td>
+            <td>
+                <input type="checkbox" id="cert" value="certificadoacademico" name="documentosadj">
+                <label for="cert">Certificado Académico</label>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td rowspan="3">
+                <input type="checkbox" id="otros" value="otrosdocumentos" name="documentosadj">
+                <label for="otros">Otros documentos (especifique)</label>
+                <input type="text" name="especificaciondedocumentosadj" id="otros">
+            </td>
+        </tr>
+    </fieldset>
+    <br>
+    <button type="submit">Enviar Solicitud</button>
+
+</body>
+</html>
