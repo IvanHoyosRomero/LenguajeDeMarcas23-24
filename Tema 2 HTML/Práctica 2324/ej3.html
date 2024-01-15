@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IES Alixar Login</title>
+</head>
+<body>
+    <table>
+        <thead style="background-color: rgb(19, 137, 141);">
+            <tr align="center">
+                <td colspan="2" >IES Alixar Login</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="usuario">Usuario:</label></td>
+                <td><input type="text" name="usuario" id="usuario"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="fecha de nacimiento">Fecha de Nacimiento:</label></td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="curso">Curso de Matriculación</label></td>
+                <td>
+                    <select name="curso" id="curso">
+                    <option value="1" selected>Primero DAW1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="rol">Role:</label></td>
+                <td>
+                    <input type="radio" name="rol" id="Estudiante" value="Estudiante">
+                    <label for="Estudiante">Estudiante</label><br>
+
+                    <input type="radio" name="rol" id="Profesor" value="Profesor">
+                    <label for="Profesor">Profesor</label><br>
+
+                    <input type="radio" name="rol" id="Apoyo" value="Apoyo">
+                    <label for="Apoyo">Apoyo</label><br>
+
+                    <input type="radio" name="rol" id="Staff" value="Staff">
+                    <label for="Staff">Staff</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comunicacion">Forma de Comunicación:</label></td>
+                <td>
+                    <input type="checkbox" name="comunicacion" id="Mail">
+                    <label for="Mail">Mail</label><br>
+
+                    <input type="checkbox" name="comunicacion" id="Teléfono">
+                    <label for="Teléfono">Teléfono</label><br>
+
+                    <input type="checkbox" name="comunicacion" id="Correo ordinario" checked>
+                    <label for="Correo ordinario" >Correo ordinario</label>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
