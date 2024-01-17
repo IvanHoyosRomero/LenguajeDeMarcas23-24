@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <table height="500px" width="500 px">
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            table {
+                border: 1px solid rgb(201, 201, 65);
+            }
+        </style>
+        <thead>
+            <tr style="background-color: rgb(201, 201, 65)">
+                <td colspan="2"><b>Leave Form</b>
+                <select name="MoreActions" id="MoreActions" style="background-color: rgb(201, 201, 65);">
+                    <option value="More Actions">More Actions</option></select></td>
+            </tr>
+            <tr>
+                <td><label for="Employee Email">Employee Email</label></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="Employee id">Employee id</label></td>
+                <td><input type="text" name="Employee id" id="Employee id" value="232" disabled></td>
+            </tr>
+            <tr>
+                <td><label for="Employee name">Employee name</label></td>
+                <td><input type="text" name="Employee name" id="Employee name" value="appuser" disabled></td>
+            </tr>
+            <tr>
+                <td><label for="Designation">Designation</label></td>
+                <td><input type="text" name="Designation" id="Designation" value="Team Leader" disabled></td>
+            </tr>
+            <tr>
+                <td><label for="Leave type">Leave type*</label></td>
+                <td>
+                    <select name="Leave type" id="Leave type" >
+                    <option value="-Select-">-Select-</option>
+                    <option value="aaaaaaaaaaaaaaaaa">aaaaaaaaaaaaaaaaaaaaa</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="From">From*</label></td>
+                <td><input type="date" name="From" id="From" required>
+                    <img src="imagenes/image.png" alt="imagen de un mini calendario" width="20px"><font size="1">[dd-MMM-yyyy]</font></td>
+            </tr>
+            <tr>
+                <td><label for="To">To*</label></td>
+                <td><input type="date" name="To" id="To" required>
+                    <img src="imagenes/image.png" alt="imagen de un mini calendario" width="20px"><font size="1">[dd-MMM-yyyy]</font></td>
+            </tr>
+            <tr>
+                <td><label for="No of Days">No of Days</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="Reason">Reason</label></td>
+                <td><textarea name="Reason" id="Reason" cols="23" rows="5" ></textarea></td>
+            </tr>
+            <tr style="background-color: rgb(192, 190, 190);">
+                <td colspan="2" align="center">
+                <button type="submit" style="background-color: rgb(201, 201, 65)">Submit</button>
+                <button type="reset" style="background-color: rgb(201, 201, 65)">Reset</button>
+                </td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
