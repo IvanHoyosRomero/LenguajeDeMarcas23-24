@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(248, 248, 248);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 99%;
+    margin: 10px auto;
+}
+
+nav input {
+    width: 50%;
+    background-color: rgb(233, 233, 233);
+}
+
+nav {
+    float: left;
+}
+
+nav img {
+    width: 10%;
+}

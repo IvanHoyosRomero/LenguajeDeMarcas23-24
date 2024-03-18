@@ -1,0 +1,73 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+nav div {
+    float: left;
+    padding: 7px;
+    width: 25%;
+    height: 50px;
+}
+
+aside {
+    background-color: black;
+    color: white;
+    width: 15%;
+    margin-top: 20px;
+    height: 400px;
+    float: left;
+}
+
+aside div {
+    padding: 10px;
+}
+
+main {
+    float: left;
+    width: 75%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+main div img {
+    margin-top: 10px;
+}
+
+main div {
+    width: 33%;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+section {
+    column-count: 3;
+    float: left; 
+    width: 75%;
+    margin-left: 5%;  
+    margin-top: 10px;
+}
+
+footer {
+    background-color: grey;
+    clear: both;
+    text-align: center;
+    padding: 6px;
+}

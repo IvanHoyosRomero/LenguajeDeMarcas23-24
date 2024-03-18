@@ -1,0 +1,54 @@
+*{
+    font-size: 30px;
+}
+body{
+    color: orange;
+    
+}
+
+p {
+    color: red;
+}
+
+h1 {
+    border: 2px dashed blue;
+}
+p,h1 {
+    font-style: italic;
+}
+
+h2 {
+    background-color: rgb(42, 165, 95);
+    border: 4px solid black;
+    padding: 10px;
+    margin-top: 50px;
+}
+#fecha {
+    color: red;
+}
+
+.fecha2 {
+    color: yellowgreen;
+}
+
+div h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body>h2 {  
+    font-style: italic;
+}
+
+p+img {
+    border: 2px solid black;
+}
+
+img~p{
+    color: green;
+}
+
+body img [alt="Logo de Chrome2"]~p{
+        color: green;
+}
+
+img

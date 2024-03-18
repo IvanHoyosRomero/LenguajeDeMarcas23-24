@@ -1,0 +1,152 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+.centum {
+   font-style: normal ;
+   width: 20%; 
+   float: left;
+}
+.impresiona {
+    float: left;
+    width: 40%; 
+}
+
+span {
+    color: green;
+}
+
+
+
+
+nav {
+    float: left;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 100%;
+    height: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    border-top: 0%;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    height: 30px;
+}
+
+header p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+nav form input {
+    background-color: rgb(48, 48, 48);
+}
+nav ul {
+    width: 60%;
+}
+ul {
+    list-style: none;
+}
+
+footer div {
+    float: left;
+    width: 33%;
+}
+
+.castillo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.texto {
+    width: 200px;
+}
+
+main {
+    float: left;
+    color: white;
+}
+
+input {
+    width: 40%;
+}
+
+nav ul a li p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contacto{
+    width: 60%;
+    float: left;
+    position: relative; left: 350px;
+}
+
+
+.contacto ul li img{
+    float: left;
+}
+
+.contacto ul li p{
+    float: left;
+}
+
+main div {
+    background-color:rgb(48, 48, 48);
+    float: left;
+
+}
+main p {
+
+    color: white;
+    width: 100%;
+}
+
+.caption {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 350px;
+}
+
+.caption h2{
+    float: left;
+    width: 350px;
+}
+
+.caption p{
+    float: left;
+    width: 350px;
+}
+
+.impresiona {
+    color: gray;
+}
+
+header div ul li{
+    margin-left: 10px;
+}
