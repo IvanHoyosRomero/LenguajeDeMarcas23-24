@@ -1,0 +1,286 @@
+*{
+    background-color: rgb(248, 248, 248);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header input {
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    height: 35px;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container {
+    width: 100%;
+    margin: 10px auto;
+}
+nav {
+    display: grid;
+    grid-template-columns: 75% 25% ;
+    display: block;
+}
+.opcion h1 {
+    font-size: 20px;
+}
+nav .academycentrar p{
+    font-size: medium;
+}
+aside {
+    grid-column: 1/2;
+    background-color: rgb(243, 243, 243);
+    height: 90px;
+    width: 100%;
+    font-size: 12px;
+}
+aside div {
+    margin: 20px;
+    background-color: rgb(243, 243, 243);
+    float: left;
+    margin: 1%;
+    margin-top: 30px;
+}
+aside h3{
+    background-color: rgb(243, 243, 243);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.academycentrar {
+    text-align: center;
+    height: 150px;
+    font-size: 20px;
+   padding-top: 50px;
+}
+header button {
+    height: 35px;
+    margin-left: 2%;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: auto;
+}
+.login {
+    border: 0px;
+}
+
+.signup {
+    border: 0px;
+}
+
+.bepro {
+    color: white;
+    background-color: black;
+}
+
+header select {
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    height: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
+}
+
+p.amarillo {
+    margin-top: 60px;
+    width: 100px;
+}
+
+.a0004 {
+    float: left;
+    margin-right: 7%;
+}
+.a0005 {
+    float: left;
+    margin-right: 7%;
+}
+.a0006 {
+    float: left;
+    margin-right: 7%;
+}
+.a0007 {
+    float: left;
+    margin-right: 7%;
+}
+.a0008 {
+    float: left;
+} 
+
+.amarillo {
+    margin-top: 150px;
+    background-color: rgb(246, 240, 236);
+    width: 80%;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+main img {
+    width: 100%;
+}
+.submitwebsite {
+    width: 80px;
+}
+
+/* Pantalla de tablet */
+@media screen and (min-width: 576px){
+    header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 5% 30% 20% 10% 10% 10% 10% ;
+    }
+    
+    .a0001 img{
+        width: 75%;
+    }
+    
+    .academycentrar {
+        font-size: x-large;
+        height: 170px;
+        padding: 0;
+    }
+    
+    .amarillo {
+        margin-top: 50px;
+    }
+    
+    nav {
+        grid-template-columns: 75% 25% ;
+    }
+    
+    main {
+        font-size: medium;
+        grid-template-columns: 15% auto auto auto auto;
+    }
+    
+    aside {
+        font-size: small;
+    }
+    
+    .opcion h1,p {
+        font-size: smaller;
+    }
+    header select {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    header input {
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    header button {
+        margin-top: 0px;
+    }
+}
+
+
+
+/* Pantalla de ordenador */
+@media screen and (min-width: 992px) {
+
+    header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 5% 60% 15% 5% 5% 5% 5% ;
+    }
+    
+    header img {
+        width: 50%;
+    }
+    
+    .opcion img{
+        width: 100%;
+    }
+    .opcion>img{
+        height: 50%;
+    }
+    .opcion1 {
+        grid-column: 2 / 3;
+    
+    }
+    .opcion2 {
+        grid-column: 3 / 4;
+    }
+    .opcion3 {
+        grid-column: 4 / 5;
+    }
+    aside {
+        grid-column: 1/2;
+        background-color: rgb(243, 243, 243);
+        height: 250px;
+        width: 100%;
+        
+    }
+    aside div {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        background-color: rgb(243, 243, 243);
+        width: 100%;
+        font-size: 120%;
+    }
+    aside h3{
+        background-color: rgb(243, 243, 243);
+    
+    }
+
+    .academycentrar {
+        text-align: center;
+        height: 300px;
+        font-size: 40px;
+       padding-top: 50px;
+    }
+    
+    header button {
+        height: 35px;
+        margin-left: 2%;
+        border-radius: 8px;
+        margin-top: 0;
+    }
+    
+    .login {
+        border: 0px;
+    }
+    
+    .signup {
+        border: 0px;
+    }
+    
+    .bepro {
+        color: white;
+        background-color: black;
+    }
+    
+    nav {
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+
+    header select {
+        width: 100%;
+        background-color: rgb(233, 233, 233);
+        height: 35px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 0px;
+    }
+    
+    main{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% auto auto auto ;
+        grid-template-rows: auto;
+        column-gap: 10px;
+    }
+    
+    .a0001{
+        grid-column: 1/2;
+    }
+    
+    .amarillo {
+        margin-top: 150px;
+        background-color: rgb(246, 240, 236);
+        width: 98%;
+        border-radius: 10px;
+        padding: 20px;
+    }
+  }
